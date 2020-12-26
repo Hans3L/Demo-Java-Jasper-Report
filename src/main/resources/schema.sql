@@ -1,0 +1,3 @@
+CREATE DATABASE minimarket;
+USE minimarket;
+CREATE TABLE IF NOT EXISTS employee (id int(11) AUTO_INCREMENT,name_employee VARCHAR(50) NOT NULL, last_name VARCHAR(50)NOT NULL, address VARCHAR(20) NOT NULL, phone VARCHAR(10) NULL,creation_time DATETIME DEFAULT CURRENT_TIME, PRIMARY KEY (id));
