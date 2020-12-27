@@ -13,6 +13,11 @@ Demo CRUD con librerias de reporte Jasper-Report.
 ### Instalación
 
 Primero descargar el repositorio de [Demo-Java-Jasper-Report](https://github.com/Hans3L/Demo-Java-Jasper-Report.git).
+
+Ir a la carpeta de Recursos  `src\main\resources` y ejecutar la query en el servidor de MySQL.
+```sh
+schema.sql
+```
 Compilar.
 ```sh
 $ mvn clean package
@@ -28,6 +33,7 @@ Como empezar a desarrollar?
 Para continuar desarrollando la DEMO se recomienda las siguientes herramientas:
 
 * IDE Eclipse 
+* MySql 8.0
 * Window Builder (Plugins nivel IDE)
 * Jasper Report (Plugins nivel IDE)
 * Java version 11 JDK
