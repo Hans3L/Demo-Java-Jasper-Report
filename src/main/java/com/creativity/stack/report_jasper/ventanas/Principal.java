@@ -1,6 +1,5 @@
 package com.creativity.stack.report_jasper.ventanas;
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -9,8 +8,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
 import com.creativity.stack.report_jasper.conexion.Conexion;
-
-import lombok.extern.slf4j.Slf4j;
 import net.sf.jasperreports.engine.JasperFillManager;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.view.JasperViewer;
@@ -38,7 +35,6 @@ import java.awt.event.MouseEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
 
-//@Slf4j
 public class Principal extends JFrame implements ActionListener, MouseListener, KeyListener {
 
 	private JPanel contentPane;
